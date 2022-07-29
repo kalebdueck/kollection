@@ -103,5 +103,11 @@ dist
 # TernJS port file
 .tern-port
 
+.vercel
+.now
+.env.local
+
+.DS_Store
+
+dbschema/edgeql-js
 tags/
-.vscode/
