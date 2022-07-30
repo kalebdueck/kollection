@@ -69,10 +69,6 @@ export const authOptions: NextAuthOptions = {
       return token
     },
   },
-
-  session: {
-    strategy: 'jwt'
-  }
 }
 
 export default NextAuth(authOptions)
